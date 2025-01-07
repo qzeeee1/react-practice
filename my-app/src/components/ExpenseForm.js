@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./ExpenseForm.css";
+// import { MdSend } from 'react-icons/md';
 
-export class ExpenseForm extends Component {
-  render() {
+const ExpenseForm = () => {
     return (
       <form>  
         <div className='form-center'> 
@@ -27,10 +27,10 @@ export class ExpenseForm extends Component {
         </div>
         <button type='submit' className='btn'>
           제출
+          {/* <MdSend /> */}
         </button>
       </form>
     )
-  }
 }
 
 export default ExpenseForm
